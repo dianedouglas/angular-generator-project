@@ -10,7 +10,9 @@ import {Component} from 'angular2/core';
   pipes: []
 })
 export class Showpeople {
-
-  constructor() {}
+  name: string;
+  constructor() {
+    this.name = "Alice";
+  }
 
 }
